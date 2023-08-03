@@ -1,0 +1,104 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+body{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 15px;
+    font-family: poppins,sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header{
+    white-space: nowrap;
+}
+
+.top-box{
+    text-align: center;
+}
+.top-box h1{
+    font-size: 2rem;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+.top-box h2{
+margin-top: -20px;
+font-size: 2rem;
+color: hsl(234, 12%, 34%);
+}
+.top-box p {
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+    text-align: center;
+}
+p{
+    color: hsl(229, 6%, 66%);
+}
+.all{
+    
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden  ;
+    margin: 10px auto;
+    height: 200px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 1px 1px 10px rgb(128, 128, 128);
+     
+}
+.all-img{
+   
+    padding: 15px;
+    right: 0;
+    bottom: 0;
+    align-items: end;
+}
+
+.all h3{
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+}
+
+.col-red{
+   border-top: 5px solid hsl(0, 78%, 62%);
+}
+.col-light-blue{
+    border-top: 5px solid hsl(180, 62%, 55%);
+
+}
+.col-orange{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.col-blue{
+border-top: 5px solid hsl(212, 86%, 64%);
+}
+.box-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.photo{
+    display: flex;
+    justify-content: right;
+}
+
+
+@media (max-width:375px  ){
+    .box-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
